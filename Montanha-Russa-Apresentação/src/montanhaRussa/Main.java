@@ -87,7 +87,6 @@ public class Main extends Thread {
 
     // Renderização de todo App
     private void initialize() {
-    	
     	//Get Numero de Vagas e Tempo de viagens antes do App Executar
 		nVagas = Integer.parseInt(JOptionPane.showInputDialog("Digite o número de vagas no Vagão: "));
 		TempoViagem = Integer.parseInt(JOptionPane.showInputDialog("Digite o Tempo de Viagem: "));

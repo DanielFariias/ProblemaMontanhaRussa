@@ -12,7 +12,8 @@ public class imgVagon extends JPanel {
 		
 		JLabel lblImgvagon = new JLabel();
 		lblImgvagon.setBounds(0, 0, 128, 128);
-		lblImgvagon.setIcon(new ImageIcon(System.getProperty("user.dir") + "/img/train.png"));
+		//lblImgvagon.setIcon(new ImageIcon(System.getProperty("user.dir") + "/img/train.png"));
+		lblImgvagon.setIcon(new ImageIcon(getClass().getResource("/img/train.png")));
 		add(lblImgvagon);
 	}
 }

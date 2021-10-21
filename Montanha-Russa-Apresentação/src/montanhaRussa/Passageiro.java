@@ -129,11 +129,11 @@ public class Passageiro extends Thread {
 		    desembarque();
 	
 		    if (Main.nPassageiros == 0) {
-				for (int i = 0; i < Main.nVagas; i++) {
-				    // nVagasLivres Up
-				    Main.nVagasLivres.release();
-				}
-				Main.montaMensagem("Vagão esta Vazio");
+			for (int i = 0; i < Main.nVagas; i++) {
+			    // nVagasLivres Up
+			    Main.nVagasLivres.release();
+			}
+			Main.montaMensagem("Vagão esta Vazio");
 		    }
 		    
 		    this.imagem.setBounds(Main.passangerPosition + 20, 200, 20, 56);
